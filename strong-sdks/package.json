@@ -1,0 +1,47 @@
+{
+  "name": "strong-sdks",
+  "description": "StrongLoop SDKs",
+  "homepage": "http://loopback.io",
+  "keywords": [
+    "restful",
+    "rest",
+    "api",
+    "express",
+    "restify",
+    "koa",
+    "auth",
+    "security",
+    "oracle",
+    "mysql",
+    "nosql",
+    "mongo",
+    "mongodb",
+    "sqlserver",
+    "mssql",
+    "postgres",
+    "postgresql",
+    "soap",
+    "StrongLoop",
+    "framework",
+    "mobile",
+    "mBaaS"
+  ],
+  "version": "2.0.0",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "loopback-ios": "1.x",
+    "loopback-android": "1.x",
+    "loopback-angular": "1.x"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strongloop/strong-products/strong-sdks"
+  },
+  "license": {
+    "name": "Dual MIT/StrongLoop",
+    "url": "https://github.com/strongloop/strong-products/blob/master/strong-sdks/LICENSE"
+  }
+}
