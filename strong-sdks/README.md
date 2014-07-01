@@ -1,3 +1,0 @@
-# strong-sdks
-
-StrongLoop SDKs

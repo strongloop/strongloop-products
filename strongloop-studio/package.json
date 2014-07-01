@@ -1,6 +1,6 @@
 {
-  "name": "strong-composer",
-  "description": "StrongLoop API Composer",
+  "name": "strongloop-studio",
+  "description": "StrongLoop Studio",
   "homepage": "http://www.strongloop.com",
   "keywords": [
     "restful",
@@ -27,23 +27,15 @@
     "mBaaS"
   ],
   "version": "2.0.0",
-  "dependencies": {
-  },
   "peerDependencies": {
-    "strong-api": "2.x",
-    "strong-mobile": "2.x",
-    "strong-sync": "2.x",
-    "strong-sdks": "2.x",
-    "strong-connectors": "2.x"
-  },
-  "devDependencies": {
+    "strong-studio": "2.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/strong-products/strong-composer"
+    "url": "https://github.com/strongloop/strong-products/strongloop-studio"
   },
   "license": {
     "name": "Dual MIT/StrongLoop",
-    "url": "https://github.com/strongloop/strong-products/blob/master/strong-composer/LICENSE"
+    "url": "https://github.com/strongloop/strong-products/blob/master/strongloop-studio/LICENSE"
   }
 }

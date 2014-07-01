@@ -1,0 +1,20 @@
+{
+  "name": "strongloop-agent",
+  "description": "StrongLoop Agent",
+  "homepage": "http://www.strongloop.com",
+  "keywords": [
+  ],
+  "version": "2.0.0",
+  "peerDependencies": {
+    "strong-agent": "0.x",
+    "strong-agent-statsd": "0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strongloop/strong-products/strongloop-agent"
+  },
+  "license": {
+    "name": "Dual MIT/StrongLoop",
+    "url": "https://github.com/strongloop/strong-products/blob/master/strongloop-agent/LICENSE"
+  }
+}

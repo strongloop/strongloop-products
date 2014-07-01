@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Test application depending on multiple products",
   "dependencies": {
-    "strong-api": "~2.0.0",
-    "strong-connectors": "~2.0.0"
+    "loopback-framework": "~2.0.0",
+    "loopback-connectors": "~2.0.0"
   }
 }

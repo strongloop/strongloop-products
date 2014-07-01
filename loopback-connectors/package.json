@@ -1,6 +1,6 @@
 {
-  "name": "strong-api",
-  "description": "StrongLoop API Framework",
+  "name": "loopback-connectors",
+  "description": "LoopBack Connectors Bundle",
   "homepage": "http://loopback.io",
   "keywords": [
     "restful",
@@ -27,22 +27,20 @@
     "mBaaS"
   ],
   "version": "2.0.0",
-  "dependencies": {
-  },
   "peerDependencies": {
-    "loopback": "2.x",
     "loopback-datasource-juggler": "2.x",
-    "loopback-explorer": "1.x",
-    "strong-remoting": "2.x"
-  },
-  "devDependencies": {
+    "loopback-connector": "1.x",
+    "loopback-connector-mongodb": "1.x",
+    "loopback-connector-mysql": "1.x",
+    "loopback-connector-postgresql": "1.x",
+    "loopback-connector-rest": "1.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/strong-products/strong-api"
+    "url": "https://github.com/strongloop/strong-products/loopback-connectors"
   },
   "license": {
-    "name": "Dual MIT/StrongLoop",
-    "url": "https://github.com/strongloop/strong-products/blob/master/strong-api/LICENSE"
+    "name": "StrongLoop",
+    "url": "https://github.com/strongloop/strong-products/blob/master/loopback-connectors/LICENSE"
   }
 }

@@ -1,18 +1,20 @@
-# strong-products
+# strongloop-bundles
 
 Product level Node modules from StrongLoop
 
-## Products
-1. [strong-api](strong-api)
-2. [strong-sdks](stron-sdks)
-3. [strong-tools](strong-tools)
-4. [strong-sync](strong-sync)
-5. [strong-connectors](strong-connectors)
-6. [strong-mobile](strong-mobile)
-7. [strong-composer](strong-composer)
+## Bundles
+1. [loopback-framework](loopback-framework)
+2. [loopback-mobile](loopback-mobile)
+3. [loopback-connectors](loopback-connectors)
+4. [strongloop](strongloop)
+5. [strongloop-connectors](strongloop-connectors)
+6. [strongloop-studio](strongloop-studio)
+7. [strongloop-agent](strongloop-agent)
 
 ## Usage
 
-To use one or more products with your application
+To use one or more bundles with your application
 
-> npm install strong-api --save
+```sh
+npm install loopback-framework --save
+```

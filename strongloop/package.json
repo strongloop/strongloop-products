@@ -1,6 +1,6 @@
 {
-  "name": "strong-sync",
-  "description": "StrongLoop Sync",
+  "name": "strongloop",
+  "description": "StrongLoop Command Line Tools",
   "homepage": "http://www.strongloop.com",
   "keywords": [
     "restful",
@@ -27,20 +27,15 @@
     "mBaaS"
   ],
   "version": "2.0.0",
-  "dependencies": {
-  },
   "peerDependencies": {
-    "loopback": "2.x",
-    "strong-connectors": "2.x"
-  },
-  "devDependencies": {
+    "strong-cli": "2.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/strong-products/strong-sync"
+    "url": "https://github.com/strongloop/strong-products/strongloop"
   },
   "license": {
     "name": "Dual MIT/StrongLoop",
-    "url": "https://github.com/strongloop/strong-products/blob/master/strong-sync/LICENSE"
+    "url": "https://github.com/strongloop/strong-products/blob/master/strongloop/LICENSE"
   }
 }

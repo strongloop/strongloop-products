@@ -1,7 +1,7 @@
 {
-  "name": "strong-connectors",
-  "description": "StrongLoop Connectors",
-  "homepage": "http://loopback.io",
+  "name": "strongloop-connectors",
+  "description": "StrongLoop Connectors Bundle",
+  "homepage": "http://www.strongloop.com",
   "keywords": [
     "restful",
     "rest",
@@ -27,27 +27,19 @@
     "mBaaS"
   ],
   "version": "2.0.0",
-  "dependencies": {
-  },
   "peerDependencies": {
     "loopback-datasource-juggler": "2.x",
     "loopback-connector": "1.x",
-    "loopback-connector-mongodb": "1.x",
-    "loopback-connector-mysql": "1.x",
     "loopback-connector-mssql": "1.x",
-    "loopback-connector-postgresql": "1.x",
     "loopback-connector-oracle": "1.x",
-    "loopback-connector-rest": "1.x",
     "loopback-connector-soap": "1.x"
-  },
-  "devDependencies": {
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/strong-products/strong-connectors"
+    "url": "https://github.com/strongloop/strong-products/strongloop-connectors"
   },
   "license": {
     "name": "StrongLoop",
-    "url": "https://github.com/strongloop/strong-products/blob/master/strong-connectors/LICENSE"
+    "url": "https://github.com/strongloop/strong-products/blob/master/strongloop-connectors/LICENSE"
   }
 }

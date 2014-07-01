@@ -1,6 +1,6 @@
 {
-  "name": "strong-sdks",
-  "description": "StrongLoop SDKs",
+  "name": "loopback-mobile",
+  "description": "LoopBack Mobile Bundle",
   "homepage": "http://loopback.io",
   "keywords": [
     "restful",
@@ -27,21 +27,20 @@
     "mBaaS"
   ],
   "version": "2.0.0",
-  "dependencies": {
-  },
   "peerDependencies": {
-    "loopback-ios": "1.x",
-    "loopback-android": "1.x",
-    "loopback-angular": "1.x"
-  },
-  "devDependencies": {
+    "loopback-framework": "2.x",
+    "loopback-sdk-ios": "1.x",
+    "loopback-sdk-android": "1.x",
+    "loopback-connectors": "2.x",
+    "loopback-component-push": "1.x",
+    "loopback-component-storage": "1.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/strong-products/strong-sdks"
+    "url": "https://github.com/strongloop/strong-products/loopback-mobile"
   },
   "license": {
     "name": "Dual MIT/StrongLoop",
-    "url": "https://github.com/strongloop/strong-products/blob/master/strong-sdks/LICENSE"
+    "url": "https://github.com/strongloop/strong-products/blob/master/loopback-mobile/LICENSE"
   }
 }

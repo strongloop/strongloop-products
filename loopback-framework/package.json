@@ -1,7 +1,7 @@
 {
-  "name": "strong-tools",
-  "description": "StrongLoop Tools",
-  "homepage": "http://www.strongloop.com",
+  "name": "loopback-framework",
+  "description": "LoopBack API Framework Bundle",
+  "homepage": "http://loopback.io",
   "keywords": [
     "restful",
     "rest",
@@ -27,19 +27,18 @@
     "mBaaS"
   ],
   "version": "2.0.0",
-  "dependencies": {
-  },
   "peerDependencies": {
-    "strong-cli": "2.x"
-  },
-  "devDependencies": {
+    "loopback": "2.x",
+    "loopback-datasource-juggler": "2.x",
+    "loopback-explorer": "1.x",
+    "strong-remoting": "2.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/strong-products/strong-tools"
+    "url": "https://github.com/strongloop/strong-products/loopback-framework"
   },
   "license": {
     "name": "Dual MIT/StrongLoop",
-    "url": "https://github.com/strongloop/strong-products/blob/master/strong-tools/LICENSE"
+    "url": "https://github.com/strongloop/strong-products/blob/master/loopback-framework/LICENSE"
   }
 }
