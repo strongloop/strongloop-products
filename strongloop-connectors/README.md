@@ -5,5 +5,5 @@ StrongLoop Connectors
 ## Installation
 
 ```sh
-npm install strongloop-agent --save
+npm install strongloop-connectors --save
 ```

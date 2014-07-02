@@ -1,5 +1,5 @@
 {
-  "name": "loopback-framework",
+  "name": "loopback-base",
   "description": "LoopBack API Framework Bundle",
   "homepage": "http://loopback.io",
   "keywords": [
@@ -29,16 +29,17 @@
   "version": "2.0.0",
   "peerDependencies": {
     "loopback": "2.x",
+    "loopback-boot": "2.x",
     "loopback-datasource-juggler": "2.x",
     "loopback-explorer": "1.x",
     "strong-remoting": "2.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/strong-products/loopback-framework"
+    "url": "https://github.com/strongloop/strong-products/loopback-base"
   },
   "license": {
     "name": "Dual MIT/StrongLoop",
-    "url": "https://github.com/strongloop/strong-products/blob/master/loopback-framework/LICENSE"
+    "url": "https://github.com/strongloop/strong-products/blob/master/loopback-base/LICENSE"
   }
 }
