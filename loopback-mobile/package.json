@@ -40,7 +40,7 @@
     "url": "https://github.com/strongloop/strong-products/loopback-mobile"
   },
   "license": {
-    "name": "Dual MIT/StrongLoop",
+    "name": "Dual Artistic 2.0/StrongLoop",
     "url": "https://github.com/strongloop/strong-products/blob/master/loopback-mobile/LICENSE"
   }
 }

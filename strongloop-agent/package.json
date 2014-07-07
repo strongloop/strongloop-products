@@ -14,7 +14,7 @@
     "url": "https://github.com/strongloop/strong-products/strongloop-agent"
   },
   "license": {
-    "name": "Dual MIT/StrongLoop",
+    "name": "StrongLoop",
     "url": "https://github.com/strongloop/strong-products/blob/master/strongloop-agent/LICENSE"
   }
 }

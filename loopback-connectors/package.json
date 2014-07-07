@@ -40,7 +40,7 @@
     "url": "https://github.com/strongloop/strong-products/loopback-connectors"
   },
   "license": {
-    "name": "StrongLoop",
+    "name": "Dual Artistic 2.0/StrongLoop",
     "url": "https://github.com/strongloop/strong-products/blob/master/loopback-connectors/LICENSE"
   }
 }
