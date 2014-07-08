@@ -13,8 +13,14 @@ Product level Node modules from StrongLoop
 
 ## Usage
 
-To use one or more bundles with your application
+To install strongloop tools:
 
 ```sh
-npm install loopback-framework --save
+npm install -g strongloop
+```
+
+To use one or more bundles with your application:
+
+```sh
+npm install loopback-base --save
 ```
