@@ -3,7 +3,7 @@
 Product level Node modules from StrongLoop
 
 ## Bundles
-1. [loopback-framework](loopback-framework)
+1. [loopback-base](loopback-base)
 2. [loopback-mobile](loopback-mobile)
 3. [loopback-connectors](loopback-connectors)
 4. [strongloop](strongloop)
