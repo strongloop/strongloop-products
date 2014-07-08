@@ -29,6 +29,7 @@
   "version": "2.0.0",
   "peerDependencies": {
     "strong-cli": "2.x",
+    "generator-loopback": "0.x",
     "loopback-sdk-angular-cli": "1.x"
   },
   "repository": {
