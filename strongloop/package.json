@@ -26,10 +26,10 @@
     "mobile",
     "mBaaS"
   ],
-  "version": "2.0.0-beta1",
+  "version": "2.0.0-beta2",
   "peerDependencies": {
     "strong-cli": "2.x",
-    "generator-loopback": "0.x",
+    "generator-loopback": "1.x",
     "loopback-sdk-angular-cli": "1.x"
   },
   "repository": {
