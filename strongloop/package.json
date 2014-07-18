@@ -31,7 +31,7 @@
     "strong-cli": "2.x"
   },
   "scripts": {
-    "install": "check-installation"
+    "install": "./check-installation"
   },
   "repository": {
     "type": "git",
