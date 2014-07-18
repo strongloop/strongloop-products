@@ -30,8 +30,11 @@
   "peerDependencies": {
     "strong-cli": "2.x"
   },
+  "bundleDependencies": [
+    "strongloop-scripts"
+  ],
   "scripts": {
-    "install": "./check-installation"
+    "install": "check-installation"
   },
   "repository": {
     "type": "git",
