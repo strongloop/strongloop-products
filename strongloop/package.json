@@ -26,12 +26,12 @@
     "mobile",
     "mBaaS"
   ],
-  "version": "2.0.0-beta3",
+  "version": "2.0.0-beta4",
   "peerDependencies": {
     "strong-cli": "2.x"
   },
   "scripts": {
-    "install": "echo Please run \\'slc update\\' to make sure all dependencies are up to date."
+    "install": "check-installation"
   },
   "repository": {
     "type": "git",
