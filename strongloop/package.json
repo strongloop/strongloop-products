@@ -30,6 +30,10 @@
   "peerDependencies": {
     "strong-cli": "2.x"
   },
+  "requiredPeerDependencies": {
+    "strong-cli": "^2.6.0",
+    "generator-loopback": "1.x"
+  },
   "scripts": {
     "install": "node check-installation.js"
   },
@@ -40,5 +44,8 @@
   "license": {
     "name": "Dual Artistic 2.0/StrongLoop",
     "url": "https://github.com/strongloop/strong-products/blob/master/strongloop/LICENSE"
+  },
+  "dependencies": {
+    "semver": "~2.3.1"
   }
 }
