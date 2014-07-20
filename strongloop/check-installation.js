@@ -2,6 +2,20 @@ var fs = require('fs');
 var path = require('path');
 var spawn = require('child_process').spawn;
 var semver = require('semver');
+var colors = require('colors');
+
+colors.setTheme({
+  silly: 'rainbow',
+  input: 'grey',
+  verbose: 'cyan',
+  prompt: 'grey',
+  info: 'green',
+  data: 'grey',
+  help: 'cyan',
+  warn: 'yellow',
+  debug: 'blue',
+  error: 'red'
+});
 
 var logo = fs.readFileSync(path.join(__dirname, 'logo.txt'), 'utf-8');
 console.log(logo);
@@ -34,7 +48,7 @@ if (process.env.npm_config_global && requiredDeps) {
     try {
       version = require(path.join('..', d, 'package.json')).version;
     } catch (e) {
-      console.error('* %s@%s - missing', d, requiredVer);
+      console.error('* %s@%s - missing'.warn, d, requiredVer);
       updateRequired = true;
     }
     if (!version) {
@@ -42,34 +56,42 @@ if (process.env.npm_config_global && requiredDeps) {
     }
     var ok = semver.satisfies(version, requiredVer);
     if (!ok) {
-      console.error('* %s@%s - not satisfied by %s', d, requiredVer, version);
+      console.error('* %s@%s - not satisfied by %s'.warn, d, requiredVer, version);
       updateRequired = true;
     } else {
-      console.log('* %s@%s - resolved by %s', d, requiredVer, version);
+      console.log('* %s@%s - resolved by %s'.info, d, requiredVer, version);
     }
   }
 } else {
   console.log('The following StrongLoop modules are installed:\n');
 
   run_slc('version', function (code) {
-    console.log('\ngenerator-loopback version must be >= 1.0.0.');
-    console.log('Please run \'slc update\' to make sure all dependencies are up to date.\n');
+    console.log('\nNOTE: generator-loopback version must be >= 1.0.0.'.red);
+    console.log('Please run '.red +
+      'slc update'.yellow.underline + ' to ensure StrongLoop products are functioning.\n'.red);
   });
   return;
 }
 
 if (updateRequired) {
+  console.log('\nRunning ' + 'slc update'.yellow.underline + '...');
   run_slc('update', function (code) {
     if (code !== 0) {
-      console.log('\'slc update\' failed. Please run it manually.\n');
+      console.log('slc update'.yellow +
+        (' has failed (code=' + code + ').').error +
+        ' To make sure StrongLoop' +
+        ' products are functioning correctly, please run the ' +
+        'slc update'.yellow +
+        ' after completion.\n');
+    } else {
+      console.log('StrongLoop installation is now finished.\n'.info);
     }
   });
 } else {
   console.log('\nThe following StrongLoop modules are installed:\n');
-
   run_slc('version', function (code) {
     if (code === 0) {
-      console.log('\nStrongLoop installation is now finished.\n');
+      console.log('\nStrongLoop installation is now finished.\n'.info);
     }
   });
 }
