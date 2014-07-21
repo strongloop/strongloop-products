@@ -48,6 +48,11 @@ if (process.env.npm_config_global && requiredDeps) {
     try {
       version = require(path.join('..', d, 'package.json')).version;
     } catch (e) {
+      if (d === 'strong-cli') {
+        // This is the 1st time when strong-cli peer dep is not installed
+        // The installation script is executed before peer deps are installed.
+        return;
+      }
       console.error('* %s@%s - missing'.warn, d, requiredVer);
       updateRequired = true;
     }
