@@ -26,9 +26,9 @@
     "mobile",
     "mBaaS"
   ],
-  "version": "2.0.0-beta1",
+  "version": "2.0.0",
   "peerDependencies": {
-    "loopback-framework": "2.x",
+    "loopback-base": "2.x",
     "loopback-sdk-ios": "1.x",
     "loopback-sdk-android": "1.x",
     "loopback-connectors": "2.x",

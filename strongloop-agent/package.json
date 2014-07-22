@@ -4,7 +4,7 @@
   "homepage": "http://www.strongloop.com",
   "keywords": [
   ],
-  "version": "2.0.0-beta1",
+  "version": "2.0.0",
   "peerDependencies": {
     "strong-agent": "0.x",
     "strong-agent-statsd": "0.x"
