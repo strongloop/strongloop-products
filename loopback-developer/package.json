@@ -26,7 +26,7 @@
     "mobile",
     "mBaaS"
   ],
-  "version": "2.0.0",
+  "version": "2.0.1",
   "peerDependencies": {
     "loopback-connector": "1.x",
     "loopback-workspace": "3.x",
@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/strong-products/loopback-developer"
+    "url": "https://github.com/strongloop/strong-products"
   },
   "license": {
     "name": "Dual MIT/StrongLoop",

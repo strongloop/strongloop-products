@@ -26,7 +26,7 @@
     "mobile",
     "mBaaS"
   ],
-  "version": "2.0.0",
+  "version": "2.0.1",
   "peerDependencies": {
     "loopback-base": "2.x",
     "loopback-sdk-ios": "1.x",
@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/strong-products/loopback-mobile"
+    "url": "https://github.com/strongloop/strong-products"
   },
   "license": {
     "name": "Dual Artistic 2.0/StrongLoop",

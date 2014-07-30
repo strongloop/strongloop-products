@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/strong-products/strongloop-studio"
+    "url": "https://github.com/strongloop/strong-products"
   },
   "license": {
     "name": "StrongLoop",
